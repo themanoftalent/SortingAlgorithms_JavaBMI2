@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+
+int main() {
+    int i, j, k, num;
+    char b;
+    printf("Enter a number:");
+    scanf("%d", &num);
+    for (i = num; i >= 1; i--) {
+        
+        for (k = 1; k <= i; k++) {
+            printf("%c", 64 + k);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+

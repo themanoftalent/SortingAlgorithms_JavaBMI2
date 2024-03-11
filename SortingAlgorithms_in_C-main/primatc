@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    int lines;
+
+    printf("Enter a number: ");
+    scanf("%d", &lines);
+
+    for (int i = 1; i <= lines; i++) {
+        for (int j = 0; j < i; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
