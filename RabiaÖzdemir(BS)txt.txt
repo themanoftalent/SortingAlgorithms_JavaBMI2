@@ -1,0 +1,81 @@
+start
+list[1 to n] ,max=n,min=1,mid,num
+mid=(min+max)/2
+  while min<=max do
+  if mid>num do
+   max=mid
+  else do
+   min=mid
+  end if
+end while
+end
+
+
+public class Ders3 {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		//Kullanıcıdan bir metin alıp ekrana yazdıran kod.
+		System.out.println("bir metin giriniz: ");
+		String msg=scan.nextLine();
+		System.out.println("Mesajınız: "+msg);
+		//Kullanıcıdan ad soyad alıp ekrana yazdıran kod.
+		System.out.println("Adınızı giriniz: ");
+		String name=scan.nextLine();
+		System.out.println("adınız: "+name);
+		
+		
+		
+		
+		//Kullanıcıdan alınan iki sayıyı toplayan kod.
+		int sonuc;
+		System.out.println("birinci sayiyi giriniz: ");
+		int num3=scan.nextInt();
+		System.out.println("ikinci sayiyi giriniz: ");
+		int num4=scan.nextInt();
+		sonuc=num3+num4;
+		System.out.println("Sonuc bu: "+sonuc);
+		
+		
+		
+		
+		
+		//Kullanıcıdan iki sayı alıp çarpan kod.
+		int sonucc;
+		System.out.println("birinci sayiyi giriniz: ");
+		int num1=scan.nextInt();
+		System.out.println("ikinci sayiyi giriniz: ");
+		int num2=scan.nextInt();
+		sonucc=num1*num2;
+		if(sonucc==20) {
+			System.out.println("Sonuc 20'dir.");
+		}
+		else {
+			System.out.println("sonuc bu:"+sonucc);
+		}
+
+		
+		
+		
+		
+		//Kullanıcıdan 100 adet sayı alaıp ekrana yazdıran kod.
+		int i=0;
+		while(i<=100) {
+			System.out.println(i+"konumundaki sayıyı giriniz: ");
+			int a=scan.nextInt();
+			System.out.println(a);
+			i++;
+		}
+		
+		
+		
+		//do-While ile birden 100 e kadar yazdıran ve yetmişte kırılan kod.
+		int b=0;
+		do {b++;
+			System.out.println(i);
+			if(b==70) {
+				break;
+			}
+		}while(b<=100);
+
+	}
