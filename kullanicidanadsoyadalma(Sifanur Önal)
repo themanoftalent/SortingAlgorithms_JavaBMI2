@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class deneme3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String kullaniciisim="sifanur";
+        String kullanicisoyad="onal";
+        System.out.println("Isminizi giriniz: ");
+        String name = sc.nextLine();
+        System.out.println("Soyisminizi giriniz: ");
+        String surname = sc.nextLine();
+        if(name.equals(kullaniciisim ) && surname.equals(kullanicisoyad)) {
+            System.out.println("Welcome!!!");
+
+        }
+        else{
+            System.out.println("try again.");
+        }
+    }
+    
+}
+
+//Sifanur Onal-2211502032
