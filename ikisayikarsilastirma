@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ikisayikarsilastirma {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Birinci sayiyi girin: ");
+        int sayi1= reader.nextInt();
+        System.out.println("ikinici sayiyi girin: ");
+        int sayi2= reader.nextInt();
+
+        if(sayi1>sayi2){
+            System.out.println("Buyuk sayi: "+sayi1);
+        }
+        else{
+            System.out.println("Buyuk sayi: "+sayi2);
+        }
+
+    }
+}
