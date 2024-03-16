@@ -1,0 +1,51 @@
+//1DEN 100E KADAR YAZDIRMA
+public class deneme1 {
+    public static void main(String[] args) {
+        int i=1;
+        while(i<=100){
+            System.out.println(i);
+            i++;
+        }
+    }
+    
+}
+
+
+//1DEN 70E KADAR YAZDIRMA
+public class sayiyazdirma {
+    public static void main(String[] args) {
+        int i=1;
+        while(i<=100) {
+            System.out.println(i);
+
+
+            if(i==70){
+                break;
+            }
+
+            i++;
+
+            
+        }
+        
+    }
+    
+}
+
+
+//DO - WHILE DONGÜSÜ
+public class etkinlik2 {
+    public static void main(String[] args) {
+        int i=1;
+        do{
+            System.out.println(i);
+            i++;
+
+         
+        }while(i<=100);
+    }
+    
+}
+
+
+//ŞİFANUR ÖNAL-2211502032
