@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SayiAl {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Birinci sayiyi girin: ");
+        int sayi1= sc.nextInt();
+        System.out.println("Ikinci sayiyi girin: ");
+        int sayi2= sc.nextInt();
+
+        int toplam =sayi1+sayi2;
+        int carpim= sayi1*sayi2;
+        System.out.println("Toplam: "+toplam);
+        System.out.println("Carpim: "+carpim);
+    }    
+}
