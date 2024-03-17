@@ -1,16 +1,9 @@
-import java.util.Scanner;
-
-public class SayiAl {
+public class SayiYazdir {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Birinci sayiyi girin: ");
-        int sayi1= sc.nextInt();
-        System.out.println("Ikinci sayiyi girin: ");
-        int sayi2= sc.nextInt();
-
-        int toplam =sayi1+sayi2;
-        int carpim= sayi1*sayi2;
-        System.out.println("Toplam: "+toplam);
-        System.out.println("Carpim: "+carpim);
-    }    
+        int i = 1;
+         do {
+            System.out.println(i);
+            i++;
+        } while (i <= 100);
+    }
 }
