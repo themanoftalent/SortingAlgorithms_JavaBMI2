@@ -1,0 +1,21 @@
+//Kullanıcıdan iki sayı alıp toplam ve çarpımını veren kod.
+
+import java.util.Scanner;
+
+public class kullanicidansayial {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Birinci sayiyi giriniz: ");
+        int sayi1= reader.nextInt();
+        System.out.println("Ikinci sayiyi giriniz: ");
+        int sayi2= reader.nextInt();
+
+        int toplam =sayi1+sayi2;
+        int carpim= sayi1*sayi2;
+        System.out.println("Toplam: "+toplam);
+        System.out.println("Carpim: "+carpim);
+    }
+
+    
+}
+ //Şifanur Önal-2211502032
